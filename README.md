@@ -2,10 +2,10 @@
 This is a Java application that allows you to manage students, courses, and batches using JDBC and DAO pattern.
 
 #Prerequisites
-Java 8 or higher
-MySQL Server
-MySQL Connector/J
-Any Java IDE (e.g., Eclipse, IntelliJ IDEA, NetBeans)
+*Java 8 or higher
+*MySQL Server
+*MySQL Connector/J
+*Any Java IDE (e.g., Eclipse, IntelliJ IDEA, NetBeans)
 <br>
 #Getting Started
 <br>
