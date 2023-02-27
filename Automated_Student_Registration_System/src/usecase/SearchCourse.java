@@ -9,7 +9,7 @@ import com.masai.dao.AdminDaoImpl;
 import model.Course;
 
 public class SearchCourse {
-	public static void main(String[] args) throws SQLException {
+	public static void search() throws SQLException {
 		 AdminDao dao = new AdminDaoImpl();
          Scanner scanner = new Scanner(System.in);
          System.out.println("Enter Course ID:");
@@ -24,7 +24,10 @@ public class SearchCourse {
          } else {
              System.out.println("Course not found!");
          }
+	}
+	public static void main(String[] args) throws SQLException {
+		
      
-         scanner.close();
+         
 	}
 }

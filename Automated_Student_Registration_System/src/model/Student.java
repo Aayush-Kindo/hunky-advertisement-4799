@@ -37,4 +37,18 @@ public class Student {
     public void setPassword(String password) {
         this.password = password;
     }
+
+	public Student() {
+		//super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Student(int id, String name, String email, String password) {
+		//super();
+		this.id = id;
+		this.name = name;
+		this.email = email;
+		this.password = password;
+	}
+	
 }

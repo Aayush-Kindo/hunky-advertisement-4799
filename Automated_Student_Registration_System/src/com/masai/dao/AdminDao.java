@@ -21,6 +21,9 @@ public interface AdminDao {
 	  
 	    public boolean updateBatchTotalSeats(int batchId, int newTotalSeats) throws SQLException;
 	     public List<Student> viewStudentListByBatchId(int batchId)throws SQLException;
+	     
+	     public Boolean updateCourseFees(int courseId, double newFees) throws SQLException;
+	   
 	        
 	 
 }

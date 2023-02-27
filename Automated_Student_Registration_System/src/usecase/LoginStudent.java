@@ -1,23 +1,23 @@
 package usecase;
 
 import java.sql.SQLException;
-import java.util.*;
+import java.util.Scanner;
 
 import com.masai.dao.AdminDao;
 import com.masai.dao.AdminDaoImpl;
+import com.masai.dao.StudentDao;
+import com.masai.dao.StudentDaoImpl;
 
-import model.Admin;
-
-public class Login {
-	   public static void adminLogin() {
-		   Scanner scn =new Scanner(System.in);
+public class LoginStudent {
+	 public static void login() {
+		 Scanner scn =new Scanner(System.in);
 		   System.out.print("Enter email: ");
 		   String email = scn.next();
 		   //System.out.println(email);
 	       System.out.print("Enter password: ");
 	       String password = scn.next();
 	      // System.out.println(password);
-	       AdminDao dao=new AdminDaoImpl();
+	       StudentDao dao=new StudentDaoImpl();
 	       String msg = "";
 	       
 	       		try {
@@ -37,10 +37,9 @@ public class Login {
 //	           System.out.println("Invalid email or password.");
 //	       }
 		System.out.println(msg);
-	   }
-	   public static void main(String[]args) throws SQLException {
-		 
-	   } 
 	   
+	 }
+	  public static void main(String[]args) throws SQLException {
+	  }
 	   
 }

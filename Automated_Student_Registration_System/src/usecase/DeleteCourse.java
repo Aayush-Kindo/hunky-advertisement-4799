@@ -9,7 +9,7 @@ import com.masai.dao.AdminDaoImpl;
 import model.Course;
 
 public class DeleteCourse {
-	public static void main(String[]args) throws SQLException {
+	public static void course_delete() throws SQLException {
 		Scanner scn =new Scanner(System.in);
 		Course newCourse=new Course();
 	
@@ -25,12 +25,9 @@ public class DeleteCourse {
 		}else {
 			System.out.println("Unable to delete course");
 		}
-		
-		scn.close();
-		
-		
-		
-		
+	}
+	public static void main(String[]args) throws SQLException {
+	
 		
 		
 	}

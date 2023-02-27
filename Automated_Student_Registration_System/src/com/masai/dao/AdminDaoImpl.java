@@ -287,6 +287,28 @@ try (Connection connection= Utility.provideConnection()){
 		 
 		return studentList;
 	}
+
+	@Override
+	public Boolean updateCourseFees(int courseId, double newFees) throws SQLException {
+		// TODO Auto-generated method stub
+		 try (Connection conn= Utility.provideConnection()){
+				
+			 PreparedStatement ps = conn.prepareStatement("UPDATE Courses SET course_Fees = ? WHERE Course_Id = ?");
+		        ps.setDouble(1, newFees);
+		        ps.setInt(2, courseId);
+		        int result = ps.executeUpdate();
+		        return result > 0;
+             
+				
+			  }catch (SQLException e) {
+					e.printStackTrace();
+					//message= e.getMessage();
+				}
+		 
+		return false;
+	}
+
+	
 }
 
 	
