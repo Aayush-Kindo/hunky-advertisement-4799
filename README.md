@@ -1,4 +1,4 @@
-# hunky-advertisement-4799
+# Automated Student Management System
 This is a Java application that allows you to manage students, courses, and batches using JDBC and DAO pattern.
 
 #Prerequisites
