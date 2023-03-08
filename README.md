@@ -39,8 +39,8 @@ This is a Java application that allows you to manage students, courses, and batc
 <br>
 
 ## Database Schema 
+<a href='https://www.linkpicture.com/view.php?img=LPic6408dff7489781872951077'><img src='https://www.linkpicture.com/q/Student_Registration_Portal_Database_Digram_page-00012.jpg' type='image'></a>
 
-<img src="image/Student_Registration_Portal_Database_Digram_page-00012.jpg" alt="Database"> 
 <!-- <a href="https://docs.google.com/presentation/d/1RYZl2LMi145-N6QlpuCRUKROo7vEhpJO/edit?usp=sharing&ouid=115573521711169005136&rtpof=true&sd=true">**PPT Link** </a> -->
 
 #License
