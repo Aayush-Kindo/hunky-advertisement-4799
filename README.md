@@ -37,13 +37,14 @@ This is a Java application that allows you to manage students, courses, and batc
 - MySQL
 - 
 <br>
-## E-R Digram of Application 
+## Database Schema 
 
 ---
 
 <a href='https://www.linkpicture.com/view.php?img=LPic64097d93a56d996230973'><img src='https://www.linkpicture.com/q/Stusent_registration_system_flow_chart.jpg' type='image'></a>
 
-## Database Schema 
+
+## E-R Digram of Application 
 <a href='https://www.linkpicture.com/view.php?img=LPic6408dff7489781872951077'><img src='https://www.linkpicture.com/q/Student_Registration_Portal_Database_Digram_page-00012.jpg' type='image'></a>
 
 <!-- <a href="https://docs.google.com/presentation/d/1RYZl2LMi145-N6QlpuCRUKROo7vEhpJO/edit?usp=sharing&ouid=115573521711169005136&rtpof=true&sd=true">**PPT Link** </a> -->
