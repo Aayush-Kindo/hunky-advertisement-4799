@@ -37,6 +37,7 @@ This is a Java application that allows you to manage students, courses, and batc
 - MySQL
 - 
 <br>
+--
 ##  Database Schema 
 
 ---
