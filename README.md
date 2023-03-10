@@ -41,8 +41,7 @@ This is a Java application that allows you to manage students, courses, and batc
 ## Flowchart 
 
 ---
-
-<a href='https://www.linkpicture.com/view.php?img=LPic64097d93a56d996230973'><img src='https://www.linkpicture.com/q/Stusent_registration_system_flow_chart.jpg' type='image'></a>
+<a href='https://www.linkpicture.com/view.php?img=LPic640ab304854482018380037'><img src='https://www.linkpicture.com/q/Stusent_registration_system_flow_chart-hunky.jpg' type='image'></a>
 
 
 ## E-R Digram of Application 
