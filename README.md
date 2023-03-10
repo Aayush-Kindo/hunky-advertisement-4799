@@ -38,7 +38,7 @@ This is a Java application that allows you to manage students, courses, and batc
 - 
 <br>
 --
-##  Database Schema 
+## Flowchart 
 
 ---
 
